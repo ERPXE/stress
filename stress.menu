@@ -1,0 +1,7 @@
+LABEL STRESSLINUX
+MENU LABEL ^Stress Linux 0.3.1
+KERNEL er/plugins/stress/vmlinuz
+APPEND video=vesafb:640x480-32@75,nomtrr,ywrap splash=verbose,theme:stresslinux hda=scsi hdb=scsi hdc=scsi hdd=scsi hde=scsi hdf=scsi hdg=scsi hdh=scsi ip=dhcp ramdisk_size=100000 noacpi noapic root=/dev/nfs nfsroot=10.0.0.1:/tftpboot/er/shares/stress
+TEXT HELP
+                 Very small Linux PE - Stress Testing.
+ENDTEXT

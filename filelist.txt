@@ -1,0 +1,4 @@
+.:
+filelist.txt
+stress.menu
+vmlinuz
